@@ -190,8 +190,7 @@ Functions to generate comparison plots (learning curves, switch behavior, win–
 
 ## 7. How to Run
 
-Example workflow (to adapt once your code is in place):
-
+Example workflow:
 ```bash
 # 1. Train DRQN in the simulated reversal environment
 python train_drqn.py --episodes 50000 --hidden_dim 64
