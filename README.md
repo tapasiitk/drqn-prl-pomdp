@@ -193,11 +193,13 @@ Functions to generate comparison plots (learning curves, switch behavior, win–
 Example workflow:
 ```bash
 # 1. Train DRQN in the simulated reversal environment
-python train_drqn.py --episodes 50000 --hidden_dim 64
+python train_drqn.py --episodes 3000 --hidden_dim 64
 
-# 2. Analyze trained DRQN behavior
-python analyze_agent.py --model_path models/drqn_final.pt
+# # 2. Analyze trained DRQN behavior
+# python analyze_agent.py --model_path models/drqn_final.pt
 
+# 2. Analyze the trained agent
+python analyze_agent.py --episodes 200
 # 3. Analyze human behavior from Weiss et al. dataset
 python analyze_humans.py --data_path human_data/weiss_2021.csv
 
