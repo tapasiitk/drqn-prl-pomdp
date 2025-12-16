@@ -1,5 +1,11 @@
 # drqn-prl-pomdp
 A PyTorch implementation of a Deep Recurrent Q-Network (DRQN) agent solving a Probabilistic Reversal Learning (PRL) task. This project benchmarks the agent's learned strategy and cognitive flexibility against human behavioral data (Weiss et al., 2021) by treating the task as a POMDP.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/release/python-380/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+
+
 # Deep Recurrent Q-Networks in Probabilistic Reversal Learning
 
 This repository examines how a Deep Recurrent Q-Network (DRQN) solves a probabilistic reversal learning (PRL) task and compares its behavior to that of **human participants** from Weiss et al. (2021).
