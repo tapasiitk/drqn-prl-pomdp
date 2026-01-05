@@ -173,6 +173,12 @@ The human dataset thus serves as a **behavioral reference**:
 - Does it over- or under-switch after reversals compared to humans?
 - Are there qualitative differences in how uncertainty is handled?
 
+
+<p align="center">
+  <img src="figures/comparison_wsls.png" width="45%">
+  <img src="figures/comparison_reversal_curve.png" width="45%">
+</p>
+
 ***
 
 ## 6. Repository Structure
