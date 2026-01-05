@@ -175,8 +175,8 @@ The human dataset thus serves as a **behavioral reference**:
 
 
 <p align="center">
-  <img src="figures/comparison_wsls.png" width="45%">
-  <img src="figures/comparison_reversal_curve.png" width="45%">
+  <img src="results/comparison_wsls.png" width="45%">
+  <img src="results/comparison_reversal_curve.png" width="45%">
 </p>
 
 ***
